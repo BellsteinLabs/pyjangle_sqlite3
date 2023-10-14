@@ -1,0 +1,22 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+    },
+    "black-formatter.args": ["--line-length", "88"],
+    "editor.formatOnType": true,
+    "editor.formatOnSave": false,
+    "editor.rulers": [88],
+    "triggerTaskOnSave.tasks": {
+        "coverage_": ["*.py"]
+    },
+    "triggerTaskOnSave.on": true,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        ".",
+        "-p",
+        "*_test.py"
+    ],
+    "python.testing.unittestEnabled": true,
+    "python.testing.pytestEnabled": false,
+}
