@@ -6,3 +6,7 @@ Contains SQLite3 event, saga, and snapshot repository implementations for [PyJan
 [pyjangle]: <https://github.com/BellsteinLabs/pyJangle/tree/main>
 [reference]: <https://github.com/BellsteinLabs/pyJangle/blob/main/example/main.py>
 [initialize]: <https://github.com/BellsteinLabs/pyangle_sqlite3/blob/main/src/pyjangle_sqlite3/initialize.py>
+
+## Installation
+
+```pip install pyjangle_sqlite3```

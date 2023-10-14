@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pyjangle_sqlite3"
-version = "0.1.0"
+version = "0.1.0-beta"
 description = "Sqlite3 implementation for PyJangle"
 readme = "readme.md"
 authors = [{ name = "Bellstein Labs LLC", email = "bellstein.labs@gmail.com" }]
@@ -26,4 +26,4 @@ dependencies = ["pyjangle == 0.*"]
 requires-python = ">=3.10"
 
 [project.urls]
-Homepage = "https://github.com/BellsteinLabs/pyJangle_sqlite3"
+Homepage = "https://github.com/BellsteinLabs/pyjangle_sqlite3"
